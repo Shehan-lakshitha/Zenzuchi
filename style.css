@@ -228,7 +228,7 @@ header .icons #menu-bars{
 .dishes .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
-    gap: 0.5 rem;
+    gap: 1.5 rem;
 }
 
 .dishes .box-container .box{
@@ -292,11 +292,11 @@ header .icons #menu-bars{
     color: var(--main-color);
 }
 
-.dishes .box-container .box .starts span{
+.dishes .box-container .box .pice{
     color: var(--main-color);
     font-weight: bolder;
     margin-right: 1rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .about .row{
@@ -359,6 +359,80 @@ header .icons #menu-bars{
 .about .row .content .icons-container .icons span{
     font-size: 1.5rem;
     color: var(--black);
+}
+
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5 rem;
+}
+
+.menu .box-container .box{
+    background: #fff;
+    border: 1rem solid rgb(0,0,0,.2);
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+}
+
+.menu .box-container .box .image{
+    height: 25rem;
+    width: 100%;
+    padding: 1.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.menu .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.menu .box-container .box .image .fa-heart{
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.menu .box-container .box .image .fa-heart:hover{
+    color: var(--main-color);
+}
+
+.menu .box-container .box .content{
+    padding: 2rem;
+    padding-top: 0;
+}
+
+.menu .box-container .box .content .starts{
+    padding-bottom: 1rem;
+}
+
+.menu .box-container .box .content .starts i{
+   font-size: 1.7rem;
+   color: var(--main-color);
+}
+
+.menu .box-container .box .content h3{
+    color: var(--black);
+    font-size: 2.5rem;
+}
+
+.menu .box-container .box .content p{
+    color: var(--light-color);
+    font-size: 1.6rem;
+    padding: 0.5rem 0;
+    line-height: 1.5;
+}
+
+.menu .box-container .box .content .pice{
+    color: var(--main-color);
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
 
