@@ -35,16 +35,18 @@ section:nth-child(even){
 
 .sub-heading{
     text-align: center;
-    color: var(--black);
+    color: var(--main-color);
     font-size: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0.2rem;
 }  
 
 .heading{
     text-align: center;
-    color: var(--main-color);
+    color: var(--black);
     font-size: 2rem;
-    padding-top: 2rem;
+    font-weight: bolder;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
     text-transform: uppercase;
 }
 
@@ -372,6 +374,8 @@ header .icons #menu-bars{
     border: 1rem solid rgb(0,0,0,.2);
     border-radius: 0.5rem;
     box-shadow: var(--box-shadow);
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .menu .box-container .box .image{
@@ -535,6 +539,46 @@ header .icons #menu-bars{
 .order form .btn{
     margin-top: 0;
 }
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3{
+    padding: 0.5rem 0;
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.footer .box-container .box a{
+    display: block;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
+
+.footer .box-container .box a:hover{
+    color: var(--main-color);
+    text-decoration: underline;
+}
+
+.footer .credit{
+    text-align: center;
+    border-top: 0.1rem solid rgb(0,0,0,.1);
+    font-size: 2rem;
+    color: var(--black);
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.footer .credit span{
+    color: var(--main-color);
+}
+
+
 
 
 
