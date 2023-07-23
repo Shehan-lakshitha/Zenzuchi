@@ -69,7 +69,7 @@ var swiper = new Swiper(".home-slider", {
         slidePreView: 2,
       },
       1120: {
-        slidePreView: 4,
+        slidePreView: 3,
       },
     },
   });
