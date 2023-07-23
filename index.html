@@ -1,789 +1,875 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zenzuchi</title>
 
     <!--font awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 
     <!--css file link-->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
     <!--header starts-->
     <header>
-        <a href="#" class="logo">
-            <i class="fas fa-utensils" id="logo-icon"></i>Zenzuchi
-        </a>
+      <a href="#" class="logo">
+        <i class="fas fa-utensils" id="logo-icon"></i>Zenzuchi
+      </a>
 
-        <nav class="navbar">
-            <a class="active" href="#home">Home</a>
-            <a href="#dishes">Dishes</a>
-            <a href="#about">About</a>
-            <a href="#menu">Menu</a>
-            <a href="#review">Review</a>
-            <a href="#order">Order</a>
-        </nav>
+      <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Review</a>
+        <a href="#order">Order</a>
+      </nav>
 
-        <div class="icons">
-            <i class="fas fa-bars" id="menu-bars"></i>
-            <i class="fas fa-search" id="search-icon"></i>
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
 
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-shopping-cart"></a>
-        </div>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
     </header>
     <!--headaer ends-->
 
     <!--search form-->
     <form action="" id="search-form">
-        <input type="search" name="" id="search-box" placeholder="search here...">
-        <label for="search-box" class="fas fa-search"></label>
-        <i class="fas fa-times" id="close"></i>
+      <input
+        type="search"
+        name=""
+        id="search-box"
+        placeholder="search here..."
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
     </form>
 
     <!--home section starts-->
     <section class="home" id="home">
-        <div class="swiper mySwiper home-slider">
-            <div class="swiper-wrapper wrapper">
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>Our Special Dish</span>
-                        <h3>Spicy Noodles</h3>
-                        <p><span>SPICE UP YOUR TASTE BUDS WITH OUR MOUTHWATERING SPICY NOODLES.<br><br>
-                            Hand-Breaded, Freshly Prepared & Finger Lickin’ Good!</span><br><br>
-                            A Taste that You Can Trust!
-                        </p>
-                        <a href="#" class="btn">Order Now</a>
-                    </div>
-                    <div class="image">
-                        <img src="img1.avif">
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>Our Special Dish</span>
-                        <h3>Fried Chicken</h3>
-                        <p><span>ZENZUCHI FRIED CHICKEN IS 100% LOCALLY SOURCED FROM OUR VERY OWN POULTRY FARMERS.<br><br>
-                        Hand-Breaded, Freshly Prepared & Finger Lickin’ Good!</span><br><br>
-                        A Taste that You Can Trust!</p>
-                        <a href="#" class="btn">Order Now</a>
-                    </div>
-                    <div class="image">
-                        <img src="img2.avif">
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>Our Special Dish</span>
-                        <h3>Hot Pizza</h3>
-                        <p><span>GET READY TO FEEL THE HEAT WITH OUR HOT PIZZAS THAT ARE GUARANTEED TO SATISFY YOUR CRAVINGS.<br><br>
-                            Hand-Breaded, Freshly Prepared & Finger Lickin’ Good!</span><br><br>
-                            A Taste You Can Trust!</p>
-                        <a href="#" class="btn">Order Now</a>
-                    </div>
-                    <div class="image">
-                        <img src="img3.avif">
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>Our Special Dish</span>
-                        <h3>Vegetable Salad</h3>
-                        <p><span>NOURISH YOUR BODY WITH A COLORFUL MEDLEY OF FARM-FRESH VEGERABLES IN OUR SIGNATURE SALAD.<br><br>
-                            Hand-Breaded, Freshly Prepared & Finger Lickin’ Good!</span><br><br>
-                            A Taste You Can Trust!</p>
-                        <a href="#" class="btn">Order Now</a>
-                    </div>
-                    <div class="image">
-                        <img src="img4.avif">
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>Our Special Dish</span>
-                        <h3>Irish Coffee</h3>
-                        <p><span>TREAT YOURSELF TO A HEARTWARMING IRISH TRADITION WITH OUR AUTHENTIC IRISH COFFEE RECIPE.<br><br>
-                            Hand-Breaded, Freshly Prepared & Finger Lickin’ Good!</span><br><br>
-                            A Taste You Can Trust!</p>
-                        <a href="#" class="btn">Order Now</a>
-                    </div>
-                    <div class="image">
-                        <img src="img5.avif">
-                    </div>
-                </div>
-
+      <div class="swiper mySwiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our Special Dish</span>
+              <h3>Spicy Noodles</h3>
+              <p>
+                <span
+                  >SPICE UP YOUR TASTE BUDS WITH OUR MOUTHWATERING SPICY
+                  NOODLES.<br /><br />
+                  Hand-Breaded, Freshly Prepared & Finger Lickin’ Good!</span
+                ><br /><br />
+                A Taste that You Can Trust!
+              </p>
+              <a href="#" class="btn">Order Now</a>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="image">
+              <img src="img1.avif" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our Special Dish</span>
+              <h3>Fried Chicken</h3>
+              <p>
+                <span
+                  >ZENZUCHI FRIED CHICKEN IS 100% LOCALLY SOURCED FROM OUR VERY
+                  OWN POULTRY FARMERS.<br /><br />
+                  Hand-Breaded, Freshly Prepared & Finger Lickin’ Good!</span
+                ><br /><br />
+                A Taste that You Can Trust!
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="img2.avif" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our Special Dish</span>
+              <h3>Hot Pizza</h3>
+              <p>
+                <span
+                  >GET READY TO FEEL THE HEAT WITH OUR HOT PIZZAS THAT ARE
+                  GUARANTEED TO SATISFY YOUR CRAVINGS.<br /><br />
+                  Hand-Breaded, Freshly Prepared & Finger Lickin’ Good!</span
+                ><br /><br />
+                A Taste You Can Trust!
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="img3.avif" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our Special Dish</span>
+              <h3>Vegetable Salad</h3>
+              <p>
+                <span
+                  >NOURISH YOUR BODY WITH A COLORFUL MEDLEY OF FARM-FRESH
+                  VEGERABLES IN OUR SIGNATURE SALAD.<br /><br />
+                  Hand-Breaded, Freshly Prepared & Finger Lickin’ Good!</span
+                ><br /><br />
+                A Taste You Can Trust!
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="img4.avif" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our Special Dish</span>
+              <h3>Irish Coffee</h3>
+              <p>
+                <span
+                  >TREAT YOURSELF TO A HEARTWARMING IRISH TRADITION WITH OUR
+                  AUTHENTIC IRISH COFFEE RECIPE.<br /><br />
+                  Hand-Breaded, Freshly Prepared & Finger Lickin’ Good!</span
+                ><br /><br />
+                A Taste You Can Trust!
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="img5.avif" />
+            </div>
+          </div>
         </div>
-    </section>    
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
     <!--home section ends-->
 
     <!--dishes section starts-->
     <section class="dishes" id="dishes">
+      <h3 class="sub-heading">Our Dishes</h3>
+      <h1 class="heading">Popular Dishes</h1>
 
-        <h3 class="sub-heading">Our Dishes</h3>
-        <h1 class="heading">Popular Dishes</h1>
-
-        <div class="box-container">
-            <div class="box">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
-                <img src="img6.avif" width="100%" height="60%">
-                <h3>Burger</h3>
-                <div class="starts">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <span class="pice">$2.99</span>
-                <a href="#" class="btn">Add To Cart</a>
-            </div>
-
-            <div class="box">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
-                <img src="img7.avif" width="100%" height="60%">
-                <h3>Tomato Soup</h3>
-                <div class="starts">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <span class="pice">$1.00</span>
-                <a href="#" class="btn">Add To Cart</a>
-            </div>
-
-            <div class="box">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
-                <img src="img8.avif" width="100%" height="60%">
-                <h3>Greek Pasta Salad</h3>
-                <div class="starts">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <span class="pice">$4.00</span>
-                <a href="#" class="btn">Add To Cart</a>
-            </div>
-
-            <div class="box">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
-                <img src="img9.avif" width="100%" height="60%">
-                <h3>Fried Prawns</h3>
-                <div class="starts">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <span class="pice">$5.00</span>
-                <a href="#" class="btn">Add To Cart</a>
-            </div>
-
-            <div class="box">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
-                <img src="img10.avif" width="100%" height="60%">
-                <h3>Thai Chicken Balls</h3>
-                <div class="starts">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <span class="pice">$3.00</span>
-                <a href="#" class="btn">Add To Cart</a>
-            </div>
-
-            <div class="box">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
-                <img src="img11.avif" width="100%" height="60%">
-                <h3>Chicken Curry</h3>
-                <div class="starts">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <span class="pice">$2.99</span>
-                <a href="#" class="btn">Add To Cart</a>
-            </div>
-
-            <div class="box">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
-                <img src="img12.avif" width="100%" height="60%">
-                <h3>Chocolate Cake</h3>
-                <div class="starts">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <span class="pice">$2.00</span>
-                <a href="#" class="btn">Add To Cart</a>
-            </div>
-
-            <div class="box">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
-                <img src="img13.avif" width="100%" height="60%">
-                <h3>Mango Mousse</h3>
-                <div class="starts">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <span class="pice">$2.00</span>
-                <a href="#" class="btn">Add To Cart</a>
-            </div>
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="img6.avif" width="100%" height="60%" />
+          <h3>Burger</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="pice">$2.99</span>
+          <a href="#" class="btn">Add To Cart</a>
         </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="img7.avif" width="100%" height="60%" />
+          <h3>Tomato Soup</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="pice">$1.00</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="img8.avif" width="100%" height="60%" />
+          <h3>Greek Pasta Salad</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="pice">$4.00</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="img9.avif" width="100%" height="60%" />
+          <h3>Fried Prawns</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="pice">$5.00</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="img10.avif" width="100%" height="60%" />
+          <h3>Thai Chicken Balls</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="pice">$3.00</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="img11.avif" width="100%" height="60%" />
+          <h3>Chicken Curry</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="pice">$2.99</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="img12.avif" width="100%" height="60%" />
+          <h3>Chocolate Cake</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="pice">$2.00</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="img13.avif" width="100%" height="60%" />
+          <h3>Mango Mousse</h3>
+          <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="pice">$2.00</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+      </div>
     </section>
     <!--dishes section ends-->
 
     <!--about section starts-->
     <section class="about" id="about">
+      <h3 class="sub-heading">About Us</h3>
+      <h1 class="heading">WHY CHOOSE US?</h1>
 
-        <h3 class="sub-heading">About Us</h3>
-        <h1 class="heading">WHY CHOOSE US?</h1>
-
-        <div class="row">
-            <div class="image">
-                <img src="about.avif">
-            </div>
-            
-            <div class="content">
-                <h3>Best Food In the Country</h3>
-                <p>A very warm welcome to Zenzuchi.We are an extremely busy restaurant Complex and famous worldwide through trip advisor and other travel guides, because we do care about our quality policy and customers.
-                    We're proud to offer the highest quality, freshest food. From our family to yours, we put lots of love and careful attention in each item. We hope you enjoy our work as much as we enjoy bringing it to you.
-                </p>
-                <p>All baking is done on the premises, and credit cards are accepted. We also offer a full bar menu. It's our honor to serve you. Welcome and enjoy!</p>
-                <div class="icons-container">
-                    <div class="icons">
-                        <i class="fas fa-shipping-fast"></i>
-                        <span>Free Delivery</span>
-                    </div>
-
-                    <div class="icons">
-                        <i class="fas fa-dollar-sign"></i>
-                        <span>Easy Payments</span>
-                    </div>
-
-                    <div class="icons">
-                        <i class="fas fa-headset"></i>
-                        <span>24/7 Service</span>
-                    </div>
-            </div>
-            <a href="#" class="btn">Learn More</a>
-            </div>
+      <div class="row">
+        <div class="image">
+          <img src="about.avif" />
         </div>
+
+        <div class="content">
+          <h3>Best Food In the Country</h3>
+          <p>
+            A very warm welcome to Zenzuchi.We are an extremely busy restaurant
+            Complex and famous worldwide through trip advisor and other travel
+            guides, because we do care about our quality policy and customers.
+            We're proud to offer the highest quality, freshest food. From our
+            family to yours, we put lots of love and careful attention in each
+            item. We hope you enjoy our work as much as we enjoy bringing it to
+            you.
+          </p>
+          <p>
+            All baking is done on the premises, and credit cards are accepted.
+            We also offer a full bar menu. It's our honor to serve you. Welcome
+            and enjoy!
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>Free Delivery</span>
+            </div>
+
+            <div class="icons">
+              <i class="fas fa-dollar-sign"></i>
+              <span>Easy Payments</span>
+            </div>
+
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>24/7 Service</span>
+            </div>
+          </div>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
     </section>
     <!--about section ends-->
 
     <!--menu section stsrts-->
     <section class="menu" id="menu">
-          
-        <h3 class="sub-heading">Our Menu</h3>
-        <h1 class="heading">TODAY'S SPECIALITY</h1>
+      <h3 class="sub-heading">Our Menu</h3>
+      <h1 class="heading">TODAY'S SPECIALITY</h1>
 
-        <div class="box-container">
-            <div class="box">
-                <div class="image">
-                    <img src="menu1.avif">
-                    <a href="#" class="fas fa-heart"></a>
-                </div>
-                <div class="content">
-                    <div class="starts">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Chicken Biryani</h3>
-                    <p>Basmati rice, Chicken, Yogurt, Onion, Tomatoes, Ginger-garlic paste, Mint leaves, Spices</p>
-                    <a href="#" class="btn">Add To Cart</a>
-                    <span class="pice">$5.00</span>
-                </div>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="menu1.avif" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
             </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="menu2.avif">
-                    <a href="#" class="fas fa-heart"></a>
-                </div>
-                <div class="content">
-                    <div class="starts">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Tandoori Roti</h3>
-                    <p>Whole wheat flour, Carrots, Inions, Leeks, Curry Leaves, Water, Salt, Cooking oil</p>
-                    <a href="#" class="btn">Add To Cart</a>
-                    <span class="pice">$1.00</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="menu3.avif">
-                    <a href="#" class="fas fa-heart"></a>
-                </div>
-                <div class="content">
-                    <div class="starts">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Mix Veg Masala</h3>
-                    <p>Carrots, Potatoes, Beans, Tomatoes, Inions, Ginger-garlic paste, Spices, Cooking oil</p>
-                    <a href="#" class="btn">Add To Cart</a>
-                    <span class="pice">$2.00</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="menu4.avif">
-                    <a href="#" class="fas fa-heart"></a>
-                </div>
-                <div class="content">
-                    <div class="starts">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Green Salad</h3>
-                    <p>Mixed greens, Cucumbers, Tomatoes, Bell peppers, Red onions, Olives, Olive oil</p>
-                    <a href="#" class="btn">Add To Cart</a>
-                    <span class="pice">$2.00</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="menu5.avif">
-                    <a href="#" class="fas fa-heart"></a>
-                </div>
-                <div class="content">
-                    <div class="starts">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Mushroom Curry</h3>
-                    <p>Mushrooms, Onions, Tomatoes, Ginger-garlic paste, Spices, Cooking oil, Fresh cream</p>
-                    <a href="#" class="btn">Add To Cart</a>
-                    <span class="pice">$2.00</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="menu6.avif">
-                    <a href="#" class="fas fa-heart"></a>
-                </div>
-                <div class="content">
-                    <div class="starts">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Stoberry Ice Cream</h3>
-                    <p>Fresh strawberries, Gelatin, Heavy cream, Milk, Sugar, Vanilla extract and colors</p>
-                    <a href="#" class="btn">Add To Cart</a>
-                    <span class="pice">$1.00</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="menu7.avif">
-                    <a href="#" class="fas fa-heart"></a>
-                </div>
-                <div class="content">
-                    <div class="starts">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Milkshake</h3>
-                    <p>Milk, Ice cream (vanilla), Sugar, Flavoring (chocolate syrup, fruit, etc.)</p>
-                    <a href="#" class="btn">Add To Cart</a>
-                    <span class="pice">$1.00</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="menu8.avif">
-                    <a href="#" class="fas fa-heart"></a>
-                </div>
-                <div class="content">
-                    <div class="starts">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Fried Fish</h3>
-                    <p>Fresh fish, Flour, Spices (salt, pepper, paprika, garlic powder), Eggs, Breadcrumbs, Cooking oil</p>
-                    <a href="#" class="btn">Add To Cart</a>
-                    <span class="pice">$2.00</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="menu9.avif">
-                    <a href="#" class="fas fa-heart"></a>
-                </div>
-                <div class="content">
-                    <div class="starts">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Banana Pudding</h3>
-                    <p>Ripe bananas, Milk, Sugar, Custard powder, Vanilla extract, Whipped cream, Vanilla wafers</p>
-                    <a href="#" class="btn">Add To Cart</a>
-                    <span class="pice">$1.00</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="menu10.avif">
-                    <a href="#" class="fas fa-heart"></a>
-                </div>
-                <div class="content">
-                    <div class="starts">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Parotta</h3>
-                    <p>Whwat Flour<br>
-                        Salt<br>
-                        Cooking oil</p>
-                    <a href="#" class="btn">Add To Cart</a>
-                    <span class="pice">$1.00</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="menu11.avif">
-                    <a href="#" class="fas fa-heart"></a>
-                </div>
-                <div class="content">
-                    <div class="starts">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Cup Cake</h3>
-                    <p>Wheat Flour, Sugar, Eggs, Butter, Baking powder, Vanilla extract, Milk</p>
-                    <a href="#" class="btn">Add To Cart</a>
-                    <span class="pice">$3.00</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="menu12.avif">
-                    <a href="#" class="fas fa-heart"></a>
-                </div>
-                <div class="content">
-                    <div class="starts">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Orange Juice</h3>
-                    <p>Fresh oranges<br>
-                        Water<br>
-                        Sugar </p>
-                    <a href="#" class="btn">Add To Cart</a>
-                    <span class="pice">$2.00</span>
-                </div>
-            </div>
+            <h3>Chicken Biryani</h3>
+            <p>
+              Basmati rice, Chicken, Yogurt, Onion, Tomatoes, Ginger-garlic
+              paste, Mint leaves, Spices
+            </p>
+            <a href="#" class="btn">Add To Cart</a>
+            <span class="pice">$5.00</span>
+          </div>
         </div>
 
+        <div class="box">
+          <div class="image">
+            <img src="menu2.avif" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Tandoori Roti</h3>
+            <p>
+              Whole wheat flour, Carrots, Inions, Leeks, Curry Leaves, Water,
+              Salt, Cooking oil
+            </p>
+            <a href="#" class="btn">Add To Cart</a>
+            <span class="pice">$1.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="menu3.avif" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Mix Veg Masala</h3>
+            <p>
+              Carrots, Potatoes, Beans, Tomatoes, Inions, Ginger-garlic paste,
+              Spices, Cooking oil
+            </p>
+            <a href="#" class="btn">Add To Cart</a>
+            <span class="pice">$2.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="menu4.avif" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Green Salad</h3>
+            <p>
+              Mixed greens, Cucumbers, Tomatoes, Bell peppers, Red onions,
+              Olives, Olive oil
+            </p>
+            <a href="#" class="btn">Add To Cart</a>
+            <span class="pice">$2.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="menu5.avif" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Mushroom Curry</h3>
+            <p>
+              Mushrooms, Onions, Tomatoes, Ginger-garlic paste, Spices, Cooking
+              oil, Fresh cream
+            </p>
+            <a href="#" class="btn">Add To Cart</a>
+            <span class="pice">$2.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="menu6.avif" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Stoberry Ice Cream</h3>
+            <p>
+              Fresh strawberries, Gelatin, Heavy cream, Milk, Sugar, Vanilla
+              extract and colors
+            </p>
+            <a href="#" class="btn">Add To Cart</a>
+            <span class="pice">$1.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="menu7.avif" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Milkshake</h3>
+            <p>
+              Milk, Ice cream (vanilla), Sugar, Flavoring (chocolate syrup,
+              fruit, etc.)
+            </p>
+            <a href="#" class="btn">Add To Cart</a>
+            <span class="pice">$1.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="menu8.avif" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Fried Fish</h3>
+            <p>
+              Fresh fish, Flour, Spices (salt, pepper, paprika, garlic powder),
+              Eggs, Breadcrumbs, Cooking oil
+            </p>
+            <a href="#" class="btn">Add To Cart</a>
+            <span class="pice">$2.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="menu9.avif" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Banana Pudding</h3>
+            <p>
+              Ripe bananas, Milk, Sugar, Custard powder, Vanilla extract,
+              Whipped cream, Vanilla wafers
+            </p>
+            <a href="#" class="btn">Add To Cart</a>
+            <span class="pice">$1.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="menu10.avif" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Parotta</h3>
+            <p>
+              Whwat Flour<br />
+              Salt<br />
+              Cooking oil
+            </p>
+            <a href="#" class="btn">Add To Cart</a>
+            <span class="pice">$1.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="menu11.avif" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Cup Cake</h3>
+            <p>
+              Wheat Flour, Sugar, Eggs, Butter, Baking powder, Vanilla extract,
+              Milk
+            </p>
+            <a href="#" class="btn">Add To Cart</a>
+            <span class="pice">$3.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="menu12.avif" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="starts">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Orange Juice</h3>
+            <p>
+              Fresh oranges<br />
+              Water<br />
+              Sugar
+            </p>
+            <a href="#" class="btn">Add To Cart</a>
+            <span class="pice">$2.00</span>
+          </div>
+        </div>
+      </div>
     </section>
     <!--menu section ends-->
 
     <!--review section starts-->
     <section class="review" id="review">
+      <h3 class="sub-heading">Customer's Review</h3>
+      <h1 class="heading">WHAT OUR CUSTOMERS SAY?</h1>
 
-        <h3 class="sub-heading">Customer's Review</h3>
-        <h1 class="heading">WHAT THEY SAY?</h1>
-
-        <div class="swiper-container review-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="review1.avif">
-                        <div class="user-info">
-                            <h3>Yogi C.</h3>
-                            <div class="starts">
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p>Wonderful and beautiful to have Sunday brunch here! It is just so relaxing!
-                       The salad was so fresh and crispy. The dressing was just mixed to perfect.
-                       And the main dish od pasta and salmon was so tender and juicy.
-                    </p>
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="review1.avif" />
+              <div class="user-info">
+                <h3>Yogi C.</h3>
+                <div class="starts">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
                 </div>
-
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="review2.avif">
-                        <div class="user-info">
-                            <h3>Karen S.</h3>
-                            <div class="starts">
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p>Went for their restaurant and my party and I could not have been happier.
-                       They offer bottomless mimosas, bloody Mary's, and palomas, which was nice because
-                       they allowed us to switch drinks up when ordering more rounds...
-                    </p>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="review3.avif">
-                        <div class="user-info">
-                            <h3>Jane C.</h3>
-                            <div class="starts">
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p>If you are looking for a fine dining with superb customer service...this place is the gem!
-                       Been here last night, and everything is absolutely amazing. Our server is the utmost attentive 
-                       and accommodating waiter I have encountered for the longest time...
-                    </p>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="review4.avif">
-                        <div class="user-info">
-                            <h3>Karina K.</h3>
-                            <div class="starts">
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p>Wow this is a restaurant I plan on going to a thousand times over. Located in the beautiful
-                       desire shores, this was a fabulous dining experience. The seating was better than I expected,
-                       and out of all the restaurants in desert shores, this indoor dining seating gives you the best view.
-                    </p>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="review5.avif">
-                        <div class="user-info">
-                            <h3>Nokole T.</h3>
-                            <div class="starts">
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star"></i>
-                                 <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p>Absolutely delicious food! Great service! Great atmosphere. Sat inside with a beautiful
-                       view! I recommend going first thing when they open. It wasn't too crowded despite the
-                       lunchtime busyness. A great way to celebrate my birthday early! I will be come back!
-                    </p>
-                </div>
+              </div>
             </div>
-        </div>
+            <p>
+              Wonderful and beautiful to have Sunday brunch here! It is just so
+              relaxing! The salad was so fresh and crispy. The dressing was just
+              mixed to perfect. And the main dish od pasta and salmon was so
+              tender and juicy.
+            </p>
+          </div>
 
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="review2.avif" />
+              <div class="user-info">
+                <h3>Karen S.</h3>
+                <div class="starts">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Went for their restaurant and my party and I could not have been
+              happier. They offer bottomless mimosas, bloody Mary's, and
+              palomas, which was nice because they allowed us to switch drinks
+              up when ordering more rounds...
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="review3.avif" />
+              <div class="user-info">
+                <h3>Jane C.</h3>
+                <div class="starts">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              If you are looking for a fine dining with superb customer
+              service...this place is the gem! Been here last night, and
+              everything is absolutely amazing. Our server is the utmost
+              attentive and accommodating waiter I have encountered for the
+              longest time...
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="review4.avif" />
+              <div class="user-info">
+                <h3>Karina K.</h3>
+                <div class="starts">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Wow this is a restaurant I plan on going to a thousand times over.
+              Located in the beautiful desire shores, this was a fabulous dining
+              experience. The seating was better than I expected, and out of all
+              the restaurants in desert shores, this indoor dining seating gives
+              you the best view.
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="review5.avif" />
+              <div class="user-info">
+                <h3>Nokole T.</h3>
+                <div class="starts">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Absolutely delicious food! Great service! Great atmosphere. Sat
+              inside with a beautiful view! I recommend going first thing when
+              they open. It wasn't too crowded despite the lunchtime busyness. A
+              great way to celebrate my birthday early! I will be come back!
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
     <!--review section ends-->
 
     <!--order section starts-->
     <section class="order" id="order">
+      <h3 class="sub-heading">Order Now</h3>
+      <h1 class="heading">FREE AND FAST</h1>
 
-        <h3 class="sub-heading">Order Now</h3>
-        <h1 class="heading">FREE AND FAST</h1>
+      <form>
+        <div class="inputBox">
+          <div class="input">
+            <span>Your Name</span>
+            <input type="text" placeholder="Enter Your Name..." />
+          </div>
+          <div class="input">
+            <span>Your Number</span>
+            <input type="text" placeholder="Enter Your Number..." />
+          </div>
+          <div class="input">
+            <span>Your Order</span>
+            <input type="text" placeholder="Enter Food Name..." />
+          </div>
+          <div class="input">
+            <span>Additional Food</span>
+            <input type="text" placeholder="Extra with Food..." />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>How Much</span>
+            <input type="number" placeholder="How many Orders..." />
+          </div>
+          <div class="input">
+            <span>Date and Time</span>
+            <input type="datetime-local" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>Your Address</span>
+            <textarea
+              name=""
+              placeholder="Enter Your Address..."
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="input">
+            <span>Your Message</span>
+            <textarea
+              name=""
+              placeholder="Enter Your Message..."
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
 
-        <form>
-            <div class="inputBox">
-                <div class="input">
-                    <span>Your Name</span>
-                    <input type="text" placeholder="Enter Your Name...">
-                </div>
-                <div class="input">
-                    <span>Your Number</span>
-                    <input type="text" placeholder="Enter Your Number...">
-                </div>
-                <div class="input">
-                    <span>Your Order</span>
-                    <input type="text" placeholder="Enter Food Name...">
-                </div>
-                <div class="input">
-                    <span>Additional Food</span>
-                    <input type="text" placeholder="Extra with Food...">
-                </div>
-            </div>
-            <div class="inputBox">
-                <div class="input">
-                    <span>How Much</span>
-                    <input type="number" placeholder="How many Orders...">
-                </div>
-                <div class="input">
-                    <span>Date and Time</span>
-                    <input type="datetime-local">
-                </div>
-            </div>   
-            <div class="inputBox">
-                <div class="input">
-                    <span>Your Address</span>
-                    <textarea name="" placeholder="Enter Your Address..." cols="30" rows="10"></textarea>
-                </div>
-                <div class="input">
-                    <span>Your Message</span>
-                    <textarea name="" placeholder="Enter Your Message..." cols="30" rows="10"></textarea>
-                </div>
-            </div> 
-            
-            <input type="submit" value="Order Now" class="btn">
-        </form>
-
+        <input type="submit" value="Order Now" class="btn" />
+      </form>
     </section>
     <!--order section ends-->
 
     <!--footer section starts-->
     <section class="footer">
-
-        <div class="box-container">
-            <div class="box">
-                <h3>Locations</h3>
-                <a href="#">India</a>
-                <a href="#">Japan</a>
-                <a href="#">Russia</a>
-                <a href="#">USA</a>
-                <a href="#">France</a>
-            </div>
-
-            <div class="box">
-                <h3>Quick Links</h3>
-                <a href="#">Home</a>
-                <a href="#">Dishes</a>
-                <a href="#">About</a>
-                <a href="#">Menu</a>
-                <a href="#">Review</a>
-                <a href="#">Order</a>
-            </div>
-
-            <div class="box">
-                <h3>Contact Info</h3>
-                <a href="#">+94-33-2276-546</a>
-                <a href="#">+123-456-7890</a>
-                <a href="#">+111-222-3333</a>
-                <a href="#">shashikala@gmail.com</a>
-                <a href="#">banu@gmail.com</a>
-                <a href="#">Colombo, Sri Lanka</a>
-            </div>
-
-            <div class="box">
-                <h3>Follow US</h3>
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Instagram</a>
-                <a href="#">LinkedIn</a>
-            </div>
+      <div class="box-container">
+        <div class="box">
+          <h3>Locations</h3>
+          <a href="#">India</a>
+          <a href="#">Japan</a>
+          <a href="#">Russia</a>
+          <a href="#">USA</a>
+          <a href="#">France</a>
         </div>
 
-        <div class="credit">Copyright @ 2023 By <span>MR. Web Designer</span></div>
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="#">Home</a>
+          <a href="#">Dishes</a>
+          <a href="#">About</a>
+          <a href="#">Menu</a>
+          <a href="#">Review</a>
+          <a href="#">Order</a>
+        </div>
 
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#">+94-33-2276-546</a>
+          <a href="#">+123-456-7890</a>
+          <a href="#">+111-222-3333</a>
+          <a href="#">shashikala@gmail.com</a>
+          <a href="#">banu@gmail.com</a>
+          <a href="#">Colombo, Sri Lanka</a>
+        </div>
+
+        <div class="box">
+          <h3>Follow US</h3>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="credit">
+        Copyright @ 2023 By <span>Hashara Pilapitiya</span>
+      </div>
     </section>
     <!--footer section ends-->
-
-
-
-
 
     <!--js file-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
-   
-    
-</body>
+  </body>
 </html>
